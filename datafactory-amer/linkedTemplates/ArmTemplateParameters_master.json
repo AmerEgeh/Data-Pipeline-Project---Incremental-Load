@@ -24,19 +24,19 @@
 			"value": ""
 		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
-			"value": "amer1.database.windows.net"
+			"value": "amer-server.database.windows.net"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_database": {
-			"value": "amer2"
+			"value": "AmerDB"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
-			"value": "Amer1"
+			"value": "Amer"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/"
 		},
 		"LS_ADLS_Gen2_properties_typeProperties_url": {
 			"value": "https://ameradam123.dfs.core.windows.net/"
-		},
-		"RestService1_properties_typeProperties_url": {
-			"value": "https://dummy.restapiexample.com/api/v1/employees"
 		},
 		"trigger1_properties_typeProperties_scope": {
 			"value": "/subscriptions/484e8483-c936-41b5-bb83-94bf16394568/resourceGroups/Amer/providers/Microsoft.Storage/storageAccounts/ameradam123"
