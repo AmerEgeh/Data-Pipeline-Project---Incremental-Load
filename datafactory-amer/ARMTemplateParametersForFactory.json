@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory-amer"
+		},
+		"AzureBlobStorage5_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage6_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage7_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"LS_ADLS_Gen2_accountKey": {
+			"value": ""
+		},
+		"LS_Databricks_accessToken": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "amer1.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "amer2"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "Amer1"
+		},
+		"LS_ADLS_Gen2_properties_typeProperties_url": {
+			"value": "https://ameradam123.dfs.core.windows.net/"
+		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "https://dummy.restapiexample.com/api/v1/employees"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/484e8483-c936-41b5-bb83-94bf16394568/resourceGroups/Amer/providers/Microsoft.Storage/storageAccounts/ameradam123"
+		}
+	}
+}
