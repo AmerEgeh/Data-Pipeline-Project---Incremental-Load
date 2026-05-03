@@ -1,0 +1,15 @@
+{
+	"name": "datafactory-amer",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "408457c0-2532-40ed-99a9-bcf1049b4750",
+		"tenantId": "bf35dbf6-7955-4536-84c2-4857882b1cfb"
+	}
+}
