@@ -1,0 +1,18 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "AmerEgeh/Data-Pipeline-Project---Incremental-Load/refs/heads/main/orders.json"
+			}
+		},
+		"schema": {}
+	}
+}
