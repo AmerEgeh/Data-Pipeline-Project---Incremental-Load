@@ -1,5 +1,5 @@
 # 🔄 GitHub-to-SQL Incremental Load
-
+ 
 An automated ETL pipeline that performs incremental data loading from a JSON source hosted on GitHub into an Azure SQL Database, leveraging the Staging/Merge pattern for robust data synchronization
 
 ## 📋 Project Overview
